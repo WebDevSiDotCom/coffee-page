@@ -35,18 +35,35 @@
 
         <section class="payment">
             <div class="name-box">
-                <label for="name">
-                    <input id="name" type="text">
-                </label>
+                <h2 class="header-title">Name</h2>
+                <input id="name" type="text">
             </div>
             <div class="cc-box">
-
+                <h2 class="header-title">Payment</h2>
+                <input id="card-number" type="text" required>
+                <input id="cvv-number" type="text" required>
             </div>
         </section>
 
         <section class="total">
+            <h2 class="box-title">Total</h2>
             <div class="total-box">
-
+                <table class="total-table">
+                    <tbody>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
             <button type="button" class="order-button">Place Order</button>
         </section>

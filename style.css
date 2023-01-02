@@ -29,3 +29,13 @@ nav {
     height: 25px;
     top: 7px;
 }
+
+.order-button {
+    width: 90%;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: rgb(222, 185, 147);
+    padding: 10px 30px;
+    border-style: none;
+}
