@@ -39,3 +39,33 @@ nav {
     padding: 10px 30px;
     border-style: none;
 }
+
+.page {
+    display: grid;
+    grid-template-areas:
+        "order payment"
+        "total total";
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.cc-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: #eee1d5;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+    width: 50%;
+}
+
+.total {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
