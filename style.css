@@ -60,7 +60,8 @@ nav {
     padding: 15px;
     margin-bottom: 20px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
-    width: 50%;
+    /* width: 50%; */
+    margin: 1em;
 }
 
 .total {
@@ -68,4 +69,14 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.total-table tbody {
+    justify-content: space-between;
+}
+
+.header-title {
+    color: #43281c;
+    font-size: 1em;
+    font-weight: 300;
 }
