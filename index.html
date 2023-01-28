@@ -52,14 +52,23 @@
 
         <section class="payment">
             <div class="name-box box">
-                <h2 class="header-title">Name</h2>
-                <input id="name" type="text">
+                <h2 class="box-title">NAME</h2>
+                    <div class="input-group">
+                        <label class="user-input-label" for="name">Name for order</label>
+                        <input type="text">
+                    </div>
             </div>
+
             <div class="cc-box box">
-                <h2 class="header-title">Payment</h2>
-                <input id="card-number" type="text" required>
-                <input id="cvv-number" type="text" required>
+                <h2 class="box-title">payment</h2>
+                    <div class="input-group"></div>
+                        <label class="user-input-label" for="cc">Card number</label>
+                        <input type="text" class="user-input" id="cc" required>
+                        <label class="user-input-label" for="cvv">CVV Number</label>
+                        <input type="text" class="user-input short-input" id="cvv" required>
+                    </div>
             </div>
+
         </section>
 
         <section class="total">
